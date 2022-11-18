@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib>
+typedef struct date_de_naissance {
+int jour ;
+int mois ;
+int annee ;
+}DATE ;
+typedef struct parametres_de_connexion {
+char identifiant [100] ;
+char mot_de_passe [100];
+}pdc ;
+typedef struct user 
+{
+char nom[100];
+char prénom[100];
+DATE date_de_naissances ; 
+char genre [100];
+int numero_cin ;
+int num_tel ;
+char ville [100] ;
+int vote ;
+int num_bv ;
+pdc cx ;
+char role [100]
+} user ;
